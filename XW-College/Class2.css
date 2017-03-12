@@ -1,0 +1,153 @@
+body{
+    margin: 0 0;
+    background: rgb(160, 177, 203);
+}
+header{
+    height: 3em;
+    background: #001758;
+    box-shadow : 0 2px 6px rgba(0, 78, 129, 0.53);
+
+}
+header *{
+    display: inline-block;
+}
+header>a{
+    font-size: x-large;
+    color: white;
+    height: 100%;
+}
+header>a>img{
+    vertical-align: middle;
+    height: 100%;
+}
+header>nav{
+    margin:0 0;
+    position: absolute;
+    right: 1em;
+    line-height: 100%;
+}
+header>nav>ul>li:last-child>a{
+    color: #005da9;
+}
+
+
+header>nav a{
+    text-decoration: none;
+    color: #0091ff;
+}
+
+article{
+    margin: 15px 14% 30px 14%;
+    padding: 1em;
+    border:1px solid gray;
+    background: rgb(235, 238, 255);
+    box-shadow: 1px 1px 5px rgba(0, 5, 18, 0.75);
+
+}
+
+figure{
+    display: block;
+    width: 200px;
+    border: 1px solid gray;
+    padding: 10px;
+    text-align: center;
+}
+figure>img{
+    width: 200px;
+}
+
+article h3{
+    color: #4c4c4c;
+}
+address,time{
+    font-size: small;
+    display: inline-block;
+    color: #808080;
+}
+
+article>table{
+    border-collapse: collapse;
+    text-align: left;
+    width: 90%;
+}
+article>table caption{
+    text-align: left;
+}
+
+article>table>thead{
+    background: #292929;
+    color: white;
+}
+article>table>tbody{
+    background: white;
+}
+article>table>tfoot{
+    background: #c2c2c2;
+}
+
+aside{
+    margin: 15px 18% 30px 14%;
+    padding: 1em;
+    border:1px solid gray;
+    background: rgb(235, 238, 255);
+    box-shadow: 1px 1px 5px rgba(0, 5, 18, 0.75);
+}
+aside h2,aside h3{
+    padding: 0.5em;
+    border-left: 3px solid #00007c;
+    font-size: medium;
+}
+
+aside table th{
+    vertical-align: top;
+    min-width: 8em;
+    text-align: right;
+    font-weight: normal;
+    padding:3px 10px 0 0 ;
+}
+
+aside table td{
+    padding:3px 0 0 0 ;
+}
+
+aside>form{
+    font-size: small;
+}
+aside>form>table{
+    margin-left: 15em;
+}
+select{
+    padding-bottom: 0.4em;
+    font-size:small;
+}
+option {
+    font-size: small;
+}
+
+aside textarea{
+    width: 30em;
+    height: 4em;
+}
+
+aside>form>button{
+    width:100%;
+    padding:0.5em;
+    border: 1px solid #0066da;
+    background: #0048c6;
+    color: white;
+    border-radius: 0.5em 0.5em;
+}
+
+aside form table p{
+    color: gray;
+    margin-top: 0;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    line-height: 1.7em;
+    height: 1.7em;
+    background: #001758;
+}
+
