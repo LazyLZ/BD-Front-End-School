@@ -1,0 +1,50 @@
+body{
+    margin: 0 0;
+}
+.container{
+    position: absolute;
+    width: 700px;
+    height:500px;
+    border: 1px solid gray;
+    box-shadow: 0 0 6px black;
+    top: calc(50% - 250px);
+    left: calc(50% - 350px);
+
+}
+
+.gray{
+    text-align: center;
+    display: inline-block;
+    z-index: 0;
+    width: 400px;
+    background: #b1b1b1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+
+}
+.gray>p{
+    position: relative;
+    z-index: 2;
+}
+
+.circle{
+    background: #ffb700;
+    width: 50px;
+    height: 50px;
+    z-index: 1;
+}
+.top{
+    border-radius: 0 0 50px 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+}
+.bottom{
+    border-radius: 50px 0 0 0 ;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
