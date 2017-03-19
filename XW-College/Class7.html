@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>任务七，实现常见的技术产品官网的页面架构及样式布局</title>
+    <link rel="stylesheet" type="text/css" href="Class7.css"/>
+</head>
+<body>
+<header id="top">
+    <div class="logo">
+        <img src="task7/_编组_book.png">
+        <span>新世界</span>
+    </div>
+    <nav>
+        <ul>
+            <li>首页</li>
+            <li>最新活动</li>
+            <li>项目介绍</li>
+            <li>爱心社区</li>
+        </ul>
+        <a href="#" class="login">
+            <img src="task7/login.png">
+            <span>登录</span>
+        </a>
+    </nav>
+</header>
+
+<div class="title-pic">
+    <div class="doc">
+    <h1>Time of new life</h1>
+    <p>新时代，年轻的人们让我们一起<br>
+    体验新生活，享受新生活</p>
+    <a href="#">开始体验</a>
+    </div>
+    <img src="task7/图一.png">
+    <div class="shadow"></div>
+</div>
+
+<div class="title-illust">
+    <table>
+        <tbody>
+        <tr>
+            <td>
+                <span class="sprite"></span>
+                <p>打造全新世界观，让你更爱你的生活</p>
+            </td>
+            <td>
+                <span class="sprite"></span>
+                <p>丰富多彩的公益活动，发挥新世界的主人公意识</p>
+            </td>
+            <td>
+                <span class="sprite"></span>
+                <p>时尚的新理念，超前体验未知的生活</p>
+            </td>
+            <td>
+                <span class="sprite"></span>
+                <p>完善的培养全新的世界观</p>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="title">
+    <img src="task7/_编组_book.png">
+    <h1>关于新世界，你不知道的还有什么？</h1>
+</div>
+
+
+<div class="search">
+    <div class="shadow"></div>
+    <img src="task7/看地图.png">
+    <h3>查找新世界城市活动信息</h3>
+    <span class="line"></span>
+    <p>每个城市有不同的活动信息，请自主查询您所需要了解的城市</p>
+    <form action="#" method="get">
+        <input name="country" list="country-list" placeholder="北京">
+        <datalist id="country-list">
+            <option>北京</option>
+        </datalist>
+        <input name="province" list="province-list" placeholder="省份">
+        <datalist id="province-list">
+            <option>北京市</option>
+            <option>北京市</option>
+            <option>北京市</option>
+            <option>北京市</option>
+            <option>北京市</option>
+            <option>北京市</option>
+        </datalist>
+        <input name="city" list="city-list" placeholder="城市">
+        <datalist id="city-list">
+            <option>北京</option>
+        </datalist>
+        <button type="reset">搜索</button>
+    </form>
+</div>
+
+<div class="activity-show">
+    <div>
+        <img src="task7/图三.png">
+        <h3>北京活动</h3>
+        <p>新社区大联盟</p>
+    </div>
+    <div>
+        <img src="task7/图四.png">
+        <h3>上海活动</h3>
+        <p>夜上海新景观探索</p>
+    </div>
+    <div>
+        <img src="task7/图五.png">
+        <h3>深圳活动</h3>
+        <p>全新海岸线观点站</p>
+    </div>
+    <div>
+        <img src="task7/图六.png">
+        <h3>香港活动</h3>
+        <p>奢侈消费大派送</p>
+    </div>
+</div>
+
+<div class="content">
+    <table>
+        <tbody>
+        <tr>
+            <td colspan="2">
+                <img src="task7/图七.png">
+                <h2>新世界</h2>
+                <h1>TIME</h1>
+                <p>@新世界 - 北京</p>
+                <time datetime="2016-04-01">2016.04.01</time>
+            </td>
+            <td>
+                <span class="triangle-left"></span>
+                <h2>新世界／<em>01</em></h2>
+                <p>新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界新世界是个新世界</p>
+                <a>
+                    <button type="button">更多详情</button>
+                </a>
+                <div class="page">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <h2>新时代</h2>
+                <h2>关于爱生活的我们</h2>
+                <span class="line"></span>
+                <a>
+                    <button type="button">查看更多</button>
+                </a>
+            </td>
+            <td>
+                <h2>新时代</h2>
+                <h2>关于爱生活的我们</h2>
+                <span class="line"></span>
+                <a>
+                    <button type="button">查看更多</button>
+                </a>
+                <span class="triangle-right"></span>
+            </td>
+            <td>
+                <div class="shadow"></div>
+                <img src="task7/_图像_.png">
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="register">
+    <div class="register-title">
+        <h1>成为我们的志愿者</h1>
+        <span class="line red"></span>
+        <p>新世界的大家庭需要每一个爱生活的人加入，如果你够年轻，有梦想，有激情<br>
+            那就不要犹豫，快来加入我们，成为改变所有人生活的人</p>
+    </div>
+
+    <div class="register-body">
+        <div class="claim">
+            <div class="treaty">
+                <h2>新世界志愿者协议</h2>
+                <p>加入新世界志愿者的人员必须遵守中华人民共和国的相关法律法规，并且本着平等自愿的原则......</p>
+                <a href="#"><img src="task7/下三角.png">more</a>
+            </div>
+            <div class="right">
+                <h2>新世界会志愿者权利</h2>
+                <p>新世界志愿者享受新世界内部所有资源共享的权利，并且享受所在四新世界活动活动的优先参与资格</p>
+                <a href="#"><img src="task7/下三角.png">more</a>
+            </div>
+            <div class="clause">
+                <h2>更多条款</h2>
+                <p></p>
+                <a href="#"><img src="task7/下三角.png">more</a>
+            </div>
+        </div>
+
+
+        <form>
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        <label for="name">姓名：<input id="name" autocomplete="off" name="name"></label>
+
+                    </td>
+                    <td>
+                        <label for="age">年龄： <input id="age" name="age"></label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="contact">联系方式：<input id="contact" name="contact"></label>
+
+                    </td>
+                    <td>
+                        <label for="address">联系地址：<input id="address" name="address"></label>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2" rowspan="2">
+                        <label for="introduction">请简单描述您梦想的生活:<textarea id="introduction" name="introduction"></textarea></label>
+
+                    </td>
+                </tr>
+                <tr></tr>
+                <tr>
+                    <td colspan="2">
+                        <button> 提交申请</button>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+
+<div class="contact-us">
+    <h2>联系我们</h2>
+    <p>为了更好的获取我们最新的产品资讯，您可以留下您的电子邮箱快速订阅我们的产品资讯<br>
+        也可以通过以下任何方式关注我们的动态</p>
+    <form action="#" method="get">
+        <input id="contactus" name="contactus" placeholder="someone@email.com"><button>提交</button>
+    </form>
+    <div class="share">
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+        <a href="#"></a>
+    </div>
+</div>
+
+<footer>
+    <small>@2106新世界</small>
+    <a href="#top">Back to top</a>
+</footer>
+</body>
+</html>
