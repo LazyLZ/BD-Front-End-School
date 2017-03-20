@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,OAAO,EAAC,MAAM;EACd,uBAAU;IACN,OAAO,EAAE,gBAAgB;IAC3B,oCAAU;MACR,MAAM,EAAE,IAAI;MAEZ,UAAU,EAAE,IAAI;MAChB,MAAM,EAAE,cAAc",
+"sources": ["Class8.scss"],
+"names": [],
+"file": "Class8.css"
+}
